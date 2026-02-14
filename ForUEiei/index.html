@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>บอกรัก</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>มีอะไรจะบอก...</h1>
+      <p class="sub">ใส่รหัสเพื่อดูข้อความพิเศษ</p>
+      <div class="form">
+        <input id="pwd" type="password" placeholder="ใส่รหัสลับ" aria-label="ใส่รหัสลับ">
+        <button id="check">ส่ง</button>
+      </div>
+      <p id="hint" class="hint" aria-live="polite"></p>
+
+      <div id="message" class="message" aria-hidden="true">
+        <h2>พี่รักน้องแก้มมากเลย 💖</h2>
+        <p>ขอบคุณที่อยู่ด้วยกันนะ อยากให้คุณยิ้มทุกวันเลย อยู่ด้วยกันนานๆน้า</p>
+      </div>
+    </div>
+    <div id="hearts" class="hearts" aria-hidden="true"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
